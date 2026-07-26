@@ -30,6 +30,12 @@ public class Musica {
         this.artista = artista;
     }
 
+    public Musica(String nomeMusica) {
+    }
+
+    public Musica(String nomeMusica, String genero) {
+    }
+
     public Long getId() {
         return id;
     }

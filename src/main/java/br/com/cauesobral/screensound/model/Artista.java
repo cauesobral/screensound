@@ -28,6 +28,9 @@ public class Artista {
         this.nomeDoArtista = nomeDoArtista;
     }
 
+    public Artista(String nome, String tipo) {
+    }
+
     public Long getId() {
         return id;
     }
@@ -50,5 +53,9 @@ public class Artista {
 
     public void setNome(String nome) {
         this.nomeDoArtista = nome;
+    }
+
+    public String getNome() {
+        return nomeDoArtista;
     }
 }
