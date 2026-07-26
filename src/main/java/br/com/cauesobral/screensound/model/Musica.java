@@ -23,6 +23,7 @@ public class Musica {
     public Musica() {
     }
 
+    //Nao colocamos id no construtor porque o banco vai gerar um id automaticamente
     public Musica(String nomeDaMusica, String genero, Artista artista) {
         this.nomeDaMusica = nomeDaMusica;
         this.genero = genero;
